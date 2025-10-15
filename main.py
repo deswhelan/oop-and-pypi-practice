@@ -28,6 +28,8 @@ my_table.add_column("Number", [1, 2, 6, 5, 3, 7, 16, 18, 11, 7, 10])
 my_table.align["Name"] = "l"
 my_table.header_style = "upper"
 
+my_table.add_row(["Ferguson", "MGR", "N/A"])
+
 print(my_table.align)
 
 print(my_table)
